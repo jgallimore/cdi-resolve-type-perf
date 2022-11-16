@@ -60,6 +60,9 @@
         <configuration>
           <tomeeVersion>${tomee.version}</tomeeVersion>
           <tomeeClassifier>plus</tomeeClassifier>
+          <systemVariables>
+            <openejb.cache.cdi-type-resolution-failure>false</openejb.cache.cdi-type-resolution-failure>
+          </systemVariables>
           <skipCurrentProject>true</skipCurrentProject>
           <apps>
             <app>org.superbiz:hello-ear:1.0.0-SNAPSHOT:ear</app>
